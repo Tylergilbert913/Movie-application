@@ -1,0 +1,39 @@
+body {
+  background: url(https://img.freepik.com/free-vector/paper-texture-background_53876-91522.jpg?size=626&ext=jpg);
+  color: rgba(255, 255, 255, 0.966);
+}
+
+.movie-app
+.row {
+/* align-content: flex-start; */
+overflow-x: auto;
+flex-wrap: nowrap;
+font-family:'Times New Roman', Times, serif;
+}
+
+.image-container {
+  position: relative;
+  transition: transform 0.2s;
+}
+
+.image-container:hover {
+  cursor: pointer;
+  transform:scale(1.2);
+}
+
+.image-container:hover
+.overlay {
+opacity: 1;
+}
+
+.overlay {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
+  bottom: 0;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
