@@ -1,6 +1,7 @@
 body {
   background: url(https://img.freepik.com/free-vector/paper-texture-background_53876-91522.jpg?size=626&ext=jpg);
   color: rgba(255, 255, 255, 0.966);
+  background-size: cover;
 }
 
 .movie-app
