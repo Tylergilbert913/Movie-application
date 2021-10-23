@@ -7,6 +7,8 @@ import SearchBox from "./Components/SearchBox.js";
 import AddFavorites from "./Components/AddFavorites.js";
 import RemoveFavorites from "./Components/RemoveFavorites.js";
 
+
+
 function App() {
   // this state is the search results. The results are stored in this array.
   const [movies, setMovies] = useState([]);

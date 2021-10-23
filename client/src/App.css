@@ -14,7 +14,7 @@ font-family:'Times New Roman', Times, serif;
 
 .image-container {
   position: relative;
-  transition: transform 0.2s;
+  transition: transform 0.5s;
 }
 
 .image-container:hover {
@@ -29,8 +29,9 @@ opacity: 1;
 
 .overlay {
   position: absolute;
+  display: block;
   background: rgba(0, 0, 0, 0.8);
-  width: 100%;
+  width: 90%;
   transition: 0.5s ease;
   opacity: 0;
   bottom: 0;

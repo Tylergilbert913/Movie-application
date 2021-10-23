@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const MovieList = (props) => {
   const FavoritesComponent = props.favoritesComponent;
 
